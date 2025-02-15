@@ -1,4 +1,7 @@
 import GitHubIcon from '@mui/icons-material/GitHub';
+import JavascriptIcon from '@mui/icons-material/Javascript';
+import CssIcon from '@mui/icons-material/Css';
+import HtmlIcon from '@mui/icons-material/Html';
 
 export default function TechStack() {
   return (
@@ -20,11 +23,11 @@ export default function TechStack() {
           </p>
         </div>
         <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
-          <GitHubIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
+          <JavascriptIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
           <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
             style={{ letterSpacing: "-2%" }}
           >
-            Git
+            Javascript
           </p>
         </div>
         <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
@@ -32,7 +35,23 @@ export default function TechStack() {
           <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
             style={{ letterSpacing: "-2%" }}
           >
-            Git
+            React
+          </p>
+        </div>
+        <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
+          <CssIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
+          <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
+            style={{ letterSpacing: "-2%" }}
+          >
+            CSS
+          </p>
+        </div>
+        <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
+          <HtmlIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
+          <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
+            style={{ letterSpacing: "-2%" }}
+          >
+            HTML
           </p>
         </div>
         <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
@@ -40,23 +59,7 @@ export default function TechStack() {
           <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
             style={{ letterSpacing: "-2%" }}
           >
-            Git
-          </p>
-        </div>
-        <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
-          <GitHubIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
-          <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
-            style={{ letterSpacing: "-2%" }}
-          >
-            Git
-          </p>
-        </div>
-        <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
-          <GitHubIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
-          <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
-            style={{ letterSpacing: "-2%" }}
-          >
-            Git
+            Tailwind
           </p>
         </div>
       </div>
