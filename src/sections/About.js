@@ -11,7 +11,7 @@ export default function About() {
       >About Me
       </h1>
       <p className="text-gray-700 font-normal font-poppins text-[18px] leading-[26px]">
-        Hi, I'm Inumoh Temiloluwa Donald, a passionate web developer with five years of experience in crafting digital experiences. My journey into web development began in Grade 12, when a friend from church introduced me to the world of building websites. Fascinated by the endless possibilities, I started learning HTML and CSS, practicing relentlessly and creating my own projects. <br />
+        Hi, I'm Inumoh Temiloluwa, a passionate web developer with five years of experience in crafting digital experiences. My journey into web development began in Grade 12, when a friend from church introduced me to the world of building websites. Fascinated by the endless possibilities, I started learning HTML and CSS, practicing relentlessly and creating my own projects. <br />
         By my second year in university, I had already mastered responsive design and was diving deep into React to build dynamic, user-friendly applications. To refine my skills, I invested in a Udemy course, expanding my knowledge and working on even more projects.<br/>
         Today, I specialize in creating seamless, modern web applications that blend aesthetics with functionality. When I'm not coding, catch me trading memecoins or playing video games.
       </p>
@@ -180,7 +180,7 @@ export default function About() {
 
         <div className="flex flex-row justify-between">
           <div className="flex flex-row gap-[20px]">
-            <div className="flex flex-row gap-1">
+            <div className="flex flex-row gap-[5px]">
               <SchoolIcon className="text-[#A7A7A7] w-[9px] h-[9px]"/>
               <p className='font-poppins font-medium text-[12px] leading-[28px] text-[#A7A7A7]' 
                 style={{letterSpacing: "1px"}}
