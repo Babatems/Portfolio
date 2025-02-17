@@ -15,6 +15,15 @@ export default function TechStack() {
 
       <div className="grid grid-cols-5 gap-[40px] justify-center items-center">
         <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
+          <GitHubIcon className="size-11 text-black group-hover:text-white transition-all duration-300" />
+          <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
+            style={{ letterSpacing: "-2%" }}
+          >
+            Github
+          </p>
+        </div>
+
+        <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
           <GitHubIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
           <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
             style={{ letterSpacing: "-2%" }}
@@ -22,6 +31,7 @@ export default function TechStack() {
             Git
           </p>
         </div>
+
         <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
           <JavascriptIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
           <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
@@ -30,6 +40,7 @@ export default function TechStack() {
             Javascript
           </p>
         </div>
+        
         <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
           <GitHubIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
           <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
@@ -38,6 +49,7 @@ export default function TechStack() {
             React
           </p>
         </div>
+
         <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
           <CssIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
           <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
@@ -46,6 +58,7 @@ export default function TechStack() {
             CSS
           </p>
         </div>
+
         <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
           <HtmlIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
           <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
@@ -54,12 +67,40 @@ export default function TechStack() {
             HTML
           </p>
         </div>
+
         <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
           <GitHubIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
           <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
             style={{ letterSpacing: "-2%" }}
           >
             Tailwind
+          </p>
+        </div>
+
+        <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
+          <GitHubIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
+          <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
+            style={{ letterSpacing: "-2%" }}
+          >
+            Firebase
+          </p>
+        </div>
+
+        <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
+          <GitHubIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
+          <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
+            style={{ letterSpacing: "-2%" }}
+          >
+            Figma
+          </p>
+        </div>
+
+        <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
+          <GitHubIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
+          <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
+            style={{ letterSpacing: "-2%" }}
+          >
+            VSCode
           </p>
         </div>
       </div>
