@@ -13,7 +13,7 @@ export default function Projects() {
       </h1>
       <p className="text-gray-700 font-normal font-poppins text-[18px] leading-[26px] mb-[60px]">A few things I've built so far</p>
       <div className='flex flex-col gap-10'>
-        <div className='flex flex-row gap-[100px]'>
+        <div className='flex flex-row justify-between items-end'>
           <img src="/images/icon-git.png" alt="" className=' h-[400px]'/>
           <div className='flex flex-col gap-[28px]'>
             <h1 className='font-poppins font-extrabold text-[48px] text-black leading-[56px]'
@@ -63,7 +63,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className='flex flex-row justify-between'>
+        <div className='flex flex-row justify-between items-end'>
           <div className='flex flex-col gap-[28px]'>
             <h1 className='font-poppins font-extrabold text-[48px] text-black leading-[56px]'
               style={{letterSpacing: "-2%"}}
@@ -113,7 +113,7 @@ export default function Projects() {
           <img src="/images/icon-git.png" alt="" className=' h-[400px]'/>
         </div>
 
-        <div className='flex flex-row gap-[100px]'>
+        <div className='flex flex-row justify-between items-end'>
           <img src="/images/icon-git.png" alt="" className=' h-[400px]'/>
           <div className='flex flex-col gap-[28px]'>
             <h1 className='font-poppins font-extrabold text-[48px] text-black leading-[56px]'
