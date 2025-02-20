@@ -20,52 +20,6 @@ export default function About() {
         style={{letterSpacing: '-0.4px'}}>
         Work Experience
       </h1>
-      
-      <div className='flex flex-col w-full'>
-        <div className="flex flex-row justify-between">
-          <h1 className="font-poppins font-normal text-[#666666] text-[20px] leading-[28px]"
-            style={{letterSpacing: "1px"}}
-          >
-            Donor Care Representative
-          </h1>
-          <p className="flex justify-center align-center px-[20px] py-[5px] bg-[#D7FFE0] text-[#018C0F] text-[9px] font-poppins font-semibold leading-[26px] tracking-wide rounded-full"
-            style={{letterSpacing: "1px"}}
-          >
-            Seasonal
-          </p> 
-        </div>
-
-        <div className="flex flex-row justify-between">
-          <div className="flex flex-row gap-[20px]">
-            <div className="flex flex-row gap-1">
-              <ApartmentIcon className="text-[#A7A7A7] w-[9px] h-[9px]"/>
-              <p className='font-poppins font-medium text-[12px] leading-[28px] text-[#A7A7A7]' 
-                style={{letterSpacing: "1px"}}
-              >
-                Siloam Mission
-              </p>
-            </div>
-
-            <div className="flex flex-row gap-1">
-              <LocationOnIcon className="text-[#A7A7A7] w-[9px] h-[9px]"/>
-              <p className='font-poppins font-medium text-[12px] leading-[28px] text-[#A7A7A7]'
-                style={{letterSpacing: "0.5px"}}
-              >
-                Canada
-              </p>
-            </div>
-          </div>
-          <div className="flex flex-row gap-1">
-            <CalendarMonthIcon className="text-[#A7A7A7] w-[9px] h-[9px]"/>
-            <p className='font-poppins font-medium text-[12px] leading-[28px] text-[#A7A7A7]'
-              style={{letterSpacing: "1px"}}
-            >
-              Oct 2024 - Feb 2025
-            </p>
-          </div>
-        </div>
-      </div>
-      <hr className='w-full h-[2px] border-gray-400'/>
 
       <div className='flex flex-col w-full'>
         <div className="flex flex-row justify-between">
