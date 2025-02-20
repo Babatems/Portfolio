@@ -1,4 +1,6 @@
 # Getting Started with Create React App
+Link: https://babatems.netlify.app
+[![Netlify Status](https://api.netlify.com/api/v1/badges/56b8da4a-b0d4-4a18-8179-4c61b1297ff9/deploy-status)](https://app.netlify.com/sites/babatems/deploys)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
