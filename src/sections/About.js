@@ -129,7 +129,7 @@ export default function About() {
             style={{letterSpacing: "1px"}}
           >
             Full Time
-          </p> 
+          </p>
         </div>
 
         <div className="flex flex-row justify-between">
