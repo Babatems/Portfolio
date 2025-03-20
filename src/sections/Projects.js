@@ -11,7 +11,7 @@ export default function Projects() {
       style={{letterSpacing: '-0.4px'}}>
         Projects
       </h1>
-      <p className="text-gray-700 font-normal font-poppins text-[18px] leading-[26px] mb-[60px]">A few things I've built so far</p>
+      <p className="text-gray-700 font-normal font-poppins text-[18px] leading-[26px] mb-[60px]">A few things I've built</p>
       <div className='flex flex-col gap-10'>
         <div className="flex flex-row justify-between w-full h-[300px]">
           {/* Image */}
