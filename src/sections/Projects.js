@@ -76,6 +76,9 @@ export default function Projects() {
         </div>
         
         <div className="flex flex-row justify-between w-full h-[300px]">
+          {/* Image */}
+          <img src="/images/icon-git.png" alt="" className="h-[300px]" />
+
           {/* Content */}
           <div className="flex flex-col gap-[20px] max-w-[600px]">
             <h1
@@ -132,8 +135,6 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          {/* Image */}
-          <img src="/images/icon-git.png" alt="" className="h-[300px]" />
         </div>
 
         <div className="flex flex-row justify-between w-full h-[300px]">

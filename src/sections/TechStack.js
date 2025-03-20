@@ -11,7 +11,7 @@ export default function TechStack() {
       >
         Tech Stack
       </h1>
-      <p className="text-gray-700 font-normal font-poppins text-[18px] leading-[26px] mb-[60px]">Technologies I've been working with recently</p>
+      <p className="text-gray-700 font-normal font-poppins text-[18px] leading-[26px] mb-[60px]">Technologies I've been working with</p>
 
       <div className="grid grid-cols-5 gap-[40px] justify-center items-center">
         <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
