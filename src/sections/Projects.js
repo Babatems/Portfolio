@@ -12,7 +12,7 @@ export default function Projects() {
         Projects
       </h1>
       <p className="text-gray-700 font-normal font-poppins text-[18px] leading-[26px] mb-[60px]">A few things I've built</p>
-      <div className='flex flex-col gap-10'>
+      <div className='flex flex-col gap-[6rem]'>
         <div className="flex flex-row justify-between w-full h-[300px]">
           {/* Image */}
           <img src="/images/icon-git.png" alt="" className="h-[300px]" />

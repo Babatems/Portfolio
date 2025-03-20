@@ -2,6 +2,11 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import JavascriptIcon from '@mui/icons-material/Javascript';
 import CssIcon from '@mui/icons-material/Css';
 import HtmlIcon from '@mui/icons-material/Html';
+import ReactIcon from '@mui/icons-material/Code'; // Replace with a React-specific icon if available
+import TailwindIcon from '@mui/icons-material/Style'; // Replace with a Tailwind-specific icon if available
+import FirebaseIcon from '@mui/icons-material/Cloud'; // Replace with a Firebase-specific icon if available
+import FigmaIcon from '@mui/icons-material/DesignServices'; // Replace with a Figma-specific icon if available
+import VSCodeIcon from '@mui/icons-material/Terminal'; // Replace with a VSCode-specific icon if available
 
 export default function TechStack() {
   return (
@@ -42,7 +47,7 @@ export default function TechStack() {
         </div>
         
         <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
-          <GitHubIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
+          <ReactIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
           <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
             style={{ letterSpacing: "-2%" }}
           >
@@ -69,7 +74,7 @@ export default function TechStack() {
         </div>
 
         <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
-          <GitHubIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
+          <TailwindIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
           <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
             style={{ letterSpacing: "-2%" }}
           >
@@ -78,7 +83,7 @@ export default function TechStack() {
         </div>
 
         <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
-          <GitHubIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
+          <FirebaseIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
           <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
             style={{ letterSpacing: "-2%" }}
           >
@@ -87,7 +92,7 @@ export default function TechStack() {
         </div>
 
         <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
-          <GitHubIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
+          <FigmaIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
           <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
             style={{ letterSpacing: "-2%" }}
           >
@@ -96,7 +101,7 @@ export default function TechStack() {
         </div>
 
         <div className="group w-full h-[186px] rounded border-2 border-black flex flex-col items-center justify-center gap-[32px] transition-all duration-300 hover:bg-black">
-          <GitHubIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
+          <VSCodeIcon className="w-11 h-11 text-black group-hover:text-white transition-all duration-300" />
           <p className="text-black font-poppins font-bold text-[20px] leading-[24%] group-hover:text-white transition-all duration-300"
             style={{ letterSpacing: "-2%" }}
           >

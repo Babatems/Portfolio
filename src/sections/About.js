@@ -5,7 +5,7 @@ import SchoolIcon from '@mui/icons-material/School';
 
 export default function About() {
   return (
-    <div className="min-h-screen flex flex-col gap-7 px-4 md:px-[120px] py-[9vh] md:py-[14vh]">
+    <div className="min-h-screen flex flex-col gap-7 px-4 md:px-[120px] py-[5vh]">
       <h1 className="text-black font-poppins font-bold md:text-[36px] leading-[52px]"
         style={{letterSpacing: '-0.4px'}}
       >About Me
