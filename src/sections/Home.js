@@ -1,15 +1,15 @@
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col md:flex-row px-4 md:px-[120px] justify-center items-center">
-      <div className="flex flex-row justify-between items-end w-full">
+      <div className="flex flex-col md:flex-row justify-between items-center md:items-end w-full">
         <h1
-          className="font-sans font-medium text-black md:text-[80px] leading-[97.2%] mb-4"
+          className="font-sans font-medium text-black text-[40px] md:text-[80px] leading-[110%] md:leading-[97.2%] mb-4 text-center md:text-left"
           style={{ letterSpacing: '-3%' }}
         >
           Hello, I'm <br /> Inumoh Temiloluwa
         </h1>
         <p
-          className="font-sans font-normal md:text-[25px] text-gray-700 leading-[117%] mb-4"
+          className="font-sans font-normal text-[18px] md:text-[25px] text-gray-700 leading-[140%] md:leading-[117%] mb-4 text-center md:text-left"
           style={{ letterSpacing: '-3%' }}
         >
           A Web developer with a deep love <br /> for combining aesthetics into technology.

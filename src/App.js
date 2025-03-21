@@ -84,7 +84,7 @@ export default function App() {
 
       {showBackToTop && (
         <button
-          className="fixed bottom-10 right-10 bg-black text-white rounded-full p-3 shadow-lg"
+          className="fixed bottom-10 right-4 sm:right-10 bg-black text-white rounded-full p-3 shadow-lg"
           onClick={scrollToTop}
         >
           <ArrowUpwardIcon style={{ fontSize: '30px' }} />
