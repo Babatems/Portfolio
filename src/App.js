@@ -7,11 +7,11 @@ import TechStack from "./sections/TechStack"
 import Project from "./sections/Projects"
 import Contact from "./sections/Contact"
 import Footer from "./sections/Footer"
-import CircularProgress from '@mui/material/CircularProgress'; // Import spinner component
+import CircularProgress from '@mui/material/CircularProgress';
 
 export default function App() {
   const [showBackToTop, setShowBackToTop] = useState(false);
-  const [loading, setLoading] = useState(true); // State to track loading
+  const [loading, setLoading] = useState(true);
 
   // References for sections
   const homeRef = useRef(null);
@@ -69,7 +69,7 @@ export default function App() {
 
   return (
     <div className="bg-[#E5E5E5]">
-      {loading ? ( // Show spinner while loading
+      {loading ? (
         <div className="flex justify-center items-center h-screen">
           <CircularProgress style={{ color: 'black' }} />
         </div>
