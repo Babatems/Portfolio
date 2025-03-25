@@ -2,10 +2,21 @@ import ApartmentIcon from '@mui/icons-material/Apartment';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import SchoolIcon from '@mui/icons-material/School';
+import { useInView } from 'react-intersection-observer';
 
 export default function About() {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+
   return (
-    <div className="min-h-screen flex flex-col gap-7 px-4 md:px-[120px] py-[5vh]">
+    <div
+      ref={ref}
+      className={`min-h-screen flex flex-col gap-7 px-4 md:px-[120px] py-[5vh] transition-opacity duration-1000 ${
+        inView ? 'opacity-100' : 'opacity-0'
+      }`}
+    >
       <h1 className="text-black font-poppins font-bold text-[28px] md:text-[36px] leading-[40px] md:leading-[52px]"
         style={{letterSpacing: '-0.4px'}}
       >About Me

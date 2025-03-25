@@ -1,6 +1,19 @@
+import { useState, useEffect } from 'react';
+
 export default function Home() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setIsVisible(true), 100); // Delay for animation
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div className="min-h-screen flex flex-col md:flex-row px-4 md:px-[120px] justify-center items-center">
+    <div
+      className={`min-h-screen flex flex-col md:flex-row px-4 md:px-[120px] justify-center items-center transition-opacity duration-1000 ${
+        isVisible ? 'opacity-100' : 'opacity-0'
+      }`}
+    >
       <div className="flex flex-col md:flex-row justify-between items-center md:items-end w-full">
         <h1
           className="font-sans font-medium text-black text-[40px] md:text-[80px] leading-[110%] md:leading-[97.2%] mb-4 text-center md:text-left"

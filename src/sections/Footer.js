@@ -2,7 +2,7 @@ import { FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa';
 
 export default function Footer() {
     return (
-        <div className="flex flex-row px-4 md:px-[120px] justify-between">
+        <div className="flex flex-row px-4 py-1 md:px-[120px] md:py-2 justify-between">
             <a href="/">
                 <p className="font-poppins font-medium text-[18px] leading-[120%] text-black"
                     style={{ letterSpacing: '-3%' }}
