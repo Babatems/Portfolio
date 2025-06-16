@@ -48,7 +48,7 @@ export default function About() {
 
         <div className="flex flex-col md:flex-row justify-between gap-2 md:gap-0">
           <div className="flex flex-col md:flex-row gap-[10px] md:gap-[20px]">
-            <div className="flex flex-row gap-1">
+            <div className="flex flex-row gap-1 items-center">
               <ApartmentIcon className="text-[#A7A7A7] w-[12px] md:w-[9px] h-[12px] md:h-[9px]"/>
               <p className='font-poppins font-medium text-[10px] md:text-[12px] leading-[20px] md:leading-[28px] text-[#A7A7A7]' 
                 style={{letterSpacing: "1px"}}
@@ -57,7 +57,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="flex flex-row gap-1">
+            <div className="flex flex-row gap-1 items-center">
               <LocationOnIcon className="text-[#A7A7A7] w-[12px] md:w-[9px] h-[12px] md:h-[9px]"/>
               <p className='font-poppins font-medium text-[10px] md:text-[12px] leading-[20px] md:leading-[28px] text-[#A7A7A7]'
                 style={{letterSpacing: "0.5px"}}
@@ -66,7 +66,7 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="flex flex-row gap-1">
+          <div className="flex flex-row gap-1 items-center">
             <CalendarMonthIcon className="text-[#A7A7A7] w-[12px] md:w-[9px] h-[12px] md:h-[9px]"/>
             <p className='font-poppins font-medium text-[10px] md:text-[12px] leading-[20px] md:leading-[28px] text-[#A7A7A7]'
               style={{letterSpacing: "1px"}}
@@ -92,9 +92,9 @@ export default function About() {
           </p> 
         </div>
 
-        <div className="flex flex-col md:flex-row justify-between gap-2 md:gap-0">
+        <div className="flex flex-col md:flex-row justify-between gap-2 md:gap-0 ">
           <div className="flex flex-col md:flex-row gap-[10px] md:gap-[20px]">
-            <div className="flex flex-row gap-1">
+            <div className="flex flex-row gap-1 items-center">
               <ApartmentIcon className="text-[#A7A7A7] w-[12px] md:w-[9px] h-[12px] md:h-[9px]"/>
               <p className='font-poppins font-medium text-[10px] md:text-[12px] leading-[20px] md:leading-[28px] text-[#A7A7A7]' 
                 style={{letterSpacing: "1px"}}
@@ -103,7 +103,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="flex flex-row gap-1">
+            <div className="flex flex-row gap-1 items-center">
               <LocationOnIcon className="text-[#A7A7A7] w-[12px] md:w-[9px] h-[12px] md:h-[9px]"/>
               <p className='font-poppins font-medium text-[10px] md:text-[12px] leading-[20px] md:leading-[28px] text-[#A7A7A7]'
                 style={{letterSpacing: "0.5px"}}
@@ -112,7 +112,7 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="flex flex-row gap-1">
+          <div className="flex flex-row gap-1 items-center">
             <CalendarMonthIcon className="text-[#A7A7A7] w-[12px] md:w-[9px] h-[12px] md:h-[9px]"/>
             <p className='font-poppins font-medium text-[10px] md:text-[12px] leading-[20px] md:leading-[28px] text-[#A7A7A7]'
               style={{letterSpacing: "1px"}}
@@ -145,7 +145,7 @@ export default function About() {
 
         <div className="flex flex-col md:flex-row justify-between gap-2 md:gap-0">
           <div className="flex flex-col md:flex-row gap-[10px] md:gap-[20px]">
-            <div className="flex flex-row gap-1">
+            <div className="flex flex-row gap-1 items-center">
               <SchoolIcon className="text-[#A7A7A7] w-[12px] md:w-[9px] h-[12px] md:h-[9px]"/>
               <p className='font-poppins font-medium text-[10px] md:text-[12px] leading-[20px] md:leading-[28px] text-[#A7A7A7]' 
                 style={{letterSpacing: "1px"}}
@@ -154,7 +154,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="flex flex-row gap-1">
+            <div className="flex flex-row gap-1 items-center">
               <LocationOnIcon className="text-[#A7A7A7] w-[12px] md:w-[9px] h-[12px] md:h-[9px]"/>
               <p className='font-poppins font-medium text-[10px] md:text-[12px] leading-[20px] md:leading-[28px] text-[#A7A7A7]'
                 style={{letterSpacing: "0.5px"}}
@@ -163,7 +163,7 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="flex flex-row gap-1">
+          <div className="flex flex-row gap-1 items-center">
             <CalendarMonthIcon className="text-[#A7A7A7] w-[12px] md:w-[9px] h-[12px] md:h-[9px]"/>
             <p className='font-poppins font-medium text-[10px] md:text-[12px] leading-[20px] md:leading-[28px] text-[#A7A7A7]'
               style={{letterSpacing: "1px"}}

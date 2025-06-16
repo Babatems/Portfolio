@@ -54,7 +54,7 @@ export default function NavBar({ scrollToSection }) {
         <div
           className={`${
             isMenuOpen ? "max-h-screen" : "max-h-0"
-          } absolute top-full left-0 w-full bg-white md:relative md:top-0 md:w-auto overflow-hidden md:overflow-visible transition-all duration-300 ease-in-out md:block`}
+          } absolute top-full left-0 w-full md:relative md:top-0 md:w-auto overflow-hidden md:overflow-visible transition-all duration-300 ease-in-out md:block`}
         >
           <ul className="flex flex-col md:flex-row md:gap-5 items-center">
             <li>

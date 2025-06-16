@@ -23,7 +23,7 @@ export default function Contact() {
                 temiloluwainumoh@gmail.com
               </a>
               <a 
-                href="path/to/your/resume.pdf" 
+                href="/Resume.docx"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className='font-poppins font-normal text-[16px] md:text-[18px] leading-[121.5%]'

@@ -9,7 +9,7 @@ export default function Projects() {
       url: "https://thexivbrand.netlify.app",
       github: "https://github.com/Babatems/E-Commerce-Website",
       image: "/images/thexivbrand.png",
-      description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem in voluptatum, ipsum repellendus earum ducimus, numquam sit magnam, labore reiciendis exercitationem veritatis explicabo. Earum aut ex ut, sequi iste voluptates.",
+      description: "A modern and responsive e-commerce website built for XIVBrand, featuring product listings, a shopping cart system, and a clean, user-friendly design. The site emphasizes smooth navigation, interactive UI elements, and a minimal aesthetic tailored for a fashion brand.",
       techStack: "HTML, JavaScript, CSS"
     },
     {
@@ -18,7 +18,7 @@ export default function Projects() {
       url: "https://word-aglow.netlify.app",
       github: "https://github.com/Babatems/Wordaglow-Site",
       image: "/images/word-aglow.png",
-      description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem in voluptatum, ipsum repellendus earum ducimus, numquam sit magnam, labore reiciendis exercitationem veritatis explicabo. Earum aut ex ut, sequi iste voluptates.",
+      description: "A clean and welcoming landing page designed for RCCG Word Aglow Parish. The page highlights key information such as service times, location, and church mission, with smooth scrolling and responsive design for all devices. Built to reflect the church’s spiritual message and encourage community engagement.",
       techStack: "HTML, JavaScript, CSS"
     },
     {
@@ -27,8 +27,8 @@ export default function Projects() {
       url: "https://runtalk.netlify.app/",
       github: "https://github.com/Babatems/RUNTalk",
       image: "/images/RUNTalk.png",
-      description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem in voluptatum, ipsum repellendus earum ducimus, numquam sit magnam, labore reiciendis exercitationem veritatis explicabo. Earum aut ex ut, sequi iste voluptates.",
-      techStack: "HTML, JavaScript, CSS"
+      description: "RUNTalk is a real-time web-based instant messaging platform developed as a final year project. Designed for Redeemer’s University, it enables seamless communication between students and staff. The platform features user authentication, live chat, message history, and a clean, responsive UI. Built with performance, scalability, and user experience in mind.",
+      techStack: "React, Tailwind CSS, Custom Database API"
     }
   ];
 
