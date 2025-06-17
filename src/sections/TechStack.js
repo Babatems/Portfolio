@@ -10,7 +10,7 @@ import VSCodeIcon from '@mui/icons-material/Terminal'; // Replace with a VSCode-
 
 export default function TechStack() {
   return (
-    <div className="min-h-screen flex flex-col px-4 md:px-[120px] py-[9vh] md:py-[14vh]">
+    <div className="min-h-screen flex flex-col px-4 md:px-[250px] py-[9vh] md:py-[14vh]">
       <h1 className="text-black font-poppins font-bold text-[28px] md:text-[36px] leading-[36px] md:leading-[52px] mb-5"
         style={{letterSpacing: '-0.4px'}}
       >

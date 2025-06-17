@@ -10,7 +10,7 @@ export default function NavBar({ scrollToSection }) {
   return (
     <header className="relative">
       <nav
-        className="flex items-center px-6 md:px-[120px] py-5 md:pt-[50px] justify-between sticky top-0 z-50"
+        className="flex items-center px-6 md:px-[250px] py-5 md:pt-[50px] justify-between sticky top-0 z-50"
       >
         {/* Logo Section */}
         <div>

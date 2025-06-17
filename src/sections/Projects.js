@@ -14,26 +14,26 @@ export default function Projects() {
     },
     {
       id: 2,
-      name: "RCCG Word Aglow Parish Landing Page",
-      url: "https://word-aglow.netlify.app",
-      github: "https://github.com/Babatems/Wordaglow-Site",
-      image: "/images/word-aglow.png",
+      name: "TouringCars",
+      url: "https://touringcars.netlify.app",
+      github: "https://github.com/Babatems/Touring-cars",
+      image: "/images/touringcars.png",
       description: "A clean and welcoming landing page designed for RCCG Word Aglow Parish. The page highlights key information such as service times, location, and church mission, with smooth scrolling and responsive design for all devices. Built to reflect the church’s spiritual message and encourage community engagement.",
-      techStack: "HTML, JavaScript, CSS"
+      techStack: "React, Tailwind CSS"
     },
     {
       id: 3,
-      name: "RUNTalk",
-      url: "https://runtalk.netlify.app/",
-      github: "https://github.com/Babatems/RUNTalk",
-      image: "/images/RUNTalk.png",
+      name: "Travling!",
+      url: "https://travlingg.netlify.app",
+      github: "https://github.com/Babatems/Travling",
+      image: "/images/Travling.png",
       description: "RUNTalk is a real-time web-based instant messaging platform developed as a final year project. Designed for Redeemer’s University, it enables seamless communication between students and staff. The platform features user authentication, live chat, message history, and a clean, responsive UI. Built with performance, scalability, and user experience in mind.",
       techStack: "React, Tailwind CSS, Custom Database API"
     }
   ];
 
   return (
-    <div className="min-h-screen flex flex-col px-4 md:px-[120px] pt-[9vh] md:py-[14vh]">
+    <div className="min-h-screen flex flex-col px-4 md:px-[250px] pt-[9vh] md:py-[14vh]">
       <h1
         className="text-black font-poppins font-bold text-[28px] md:text-[36px] leading-[36px] md:leading-[52px] mb-5"
         style={{ letterSpacing: "-0.4px" }}
@@ -45,12 +45,12 @@ export default function Projects() {
       </p>
       <div className="flex flex-col gap-[4rem] md:gap-[10rem]">
         {projects.map((project) => (
-          <div key={project.id} className="flex flex-col md:flex-row justify-between w-full md:h-[300px] h-auto gap-4">
+          <div key={project.id} className="flex flex-col md:flex-row justify-between w-full md:h-[300px] h-auto gap-10">
             {/* Image */}
             <img
               src={project.image}
               alt={`Project ${project.id}`}
-              className="h-[200px] md:h-[300px] w-full md:w-auto object-cover"
+              className="h-[200px] md:h-[300px] rounded-2xl w-full md:w-auto object-cover"
             />
 
             {/* Content */}

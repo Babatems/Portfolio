@@ -3,7 +3,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 export default function Contact() {
     return (
       <>
-        <div className="flex flex-col px-4 md:px-[120px] py-[9vh] md:py-[10vh]">
+        <div className="flex flex-col px-4 md:px-[250px] py-[9vh] md:py-[10vh]">
           <hr className='w-full h-[5px] border-[#181717] font-bold'/>
           <div className='flex flex-col md:flex-row justify-between mt-[70px]'>
             <div className='mb-8 md:mb-0'>
