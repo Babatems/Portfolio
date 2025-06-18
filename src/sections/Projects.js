@@ -27,8 +27,8 @@ export default function Projects() {
       url: "https://travlingg.netlify.app",
       github: "https://github.com/Babatems/Travling",
       image: "/images/Travling.png",
-      description: "RUNTalk is a real-time web-based instant messaging platform developed as a final year project. Designed for Redeemer’s University, it enables seamless communication between students and staff. The platform features user authentication, live chat, message history, and a clean, responsive UI. Built with performance, scalability, and user experience in mind.",
-      techStack: "React, Tailwind CSS, Custom Database API"
+      description: "Travling is a sleek and user-friendly landing page that allows users to discover exciting vacation destinations, book hotel accommodations, and purchase flight tickets—all in one place.",
+      techStack: "React, Tailwind CSS"
     }
   ];
 

@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import NavBar from "./NavBar";
-import Home from "./sections/Home"
-import About from "./sections/About"
-import TechStack from "./sections/TechStack"
-import Project from "./sections/Projects"
-import Contact from "./sections/Contact"
-import Footer from "./sections/Footer"
-import CircularProgress from '@mui/material/CircularProgress';
+import Home from "./sections/Home";
+import About from "./sections/About";
+import TechStack from "./sections/TechStack";
+import Project from "./sections/Projects";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
+import { InfiniteSpinner } from "./ui/spinner";
 
 export default function App() {
   const [showBackToTop, setShowBackToTop] = useState(false);
@@ -31,7 +31,7 @@ export default function App() {
         break;
       case 'techstack':
         techstackRef.current.scrollIntoView({ behavior: 'smooth' });
-        break
+        break;
       case 'projects':
         projectsRef.current.scrollIntoView({ behavior: 'smooth' });
         break;
@@ -71,32 +71,20 @@ export default function App() {
     <div className="bg-[#E5E5E5]">
       {loading ? (
         <div className="flex justify-center items-center h-screen">
-          <CircularProgress style={{ color: 'black' }} />
+          <InfiniteSpinner size={50} className="text-black" /> {/* ✅ Spinner */}
         </div>
       ) : (
         <>
           <NavBar scrollToSection={scrollToSection} />
-          
-          {/* Sections */}
-          <div ref={homeRef}>
-            <Home />
-          </div>
-          <div ref={aboutRef}>
-            <About />
-          </div>
-          <div ref={techstackRef}>
-            <TechStack />
-          </div>
-          <div ref={projectsRef}>
-            <Project />
-          </div>
-          <div ref={contactRef}>
-            <Contact />
-          </div>
 
-          <div>
-            <Footer />
-          </div>
+          {/* Sections */}
+          <div ref={homeRef}><Home /></div>
+          <div ref={aboutRef}><About /></div>
+          <div ref={techstackRef}><TechStack /></div>
+          <div ref={projectsRef}><Project /></div>
+          <div ref={contactRef}><Contact /></div>
+
+          <Footer />
 
           {showBackToTop && (
             <button
