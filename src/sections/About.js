@@ -221,6 +221,50 @@ export default function About() {
         </div>
       </div>
       <hr className='w-full h-[2px] md:h-[3px] border-gray-400'/>
+      <div className='flex flex-col w-full gap-4'>
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
+          <h1 className="font-poppins font-normal text-[#666666] text-[18px] md:text-[20px] leading-[26px] md:leading-[28px]"
+            style={{letterSpacing: "1px"}}
+          >
+            MSc. in Applied Computer Science & Society
+          </h1>
+          <p className="flex justify-center items-center px-[15px] md:px-[20px] py-[5px] bg-[#D7FFE0] text-[#018C0F] text-[8px] md:text-[9px] font-poppins font-semibold leading-[20px] md:leading-[26px] tracking-wide rounded-full"
+            style={{letterSpacing: "1px"}}
+          >
+            Full Time
+          </p>
+        </div>
+
+        <div className="flex flex-col md:flex-row justify-between gap-2 md:gap-0">
+          <div className="flex flex-col md:flex-row gap-[10px] md:gap-[20px]">
+            <div className="flex flex-row gap-1 items-center">
+              <SchoolIcon className="text-[#A7A7A7] w-[12px] md:w-[9px] h-[12px] md:h-[9px]"/>
+              <p className='font-poppins font-medium text-[10px] md:text-[12px] leading-[20px] md:leading-[28px] text-[#A7A7A7]' 
+                style={{letterSpacing: "1px"}}
+              >
+                University of Winnipeg
+              </p>
+            </div>
+
+            <div className="flex flex-row gap-1 items-center">
+              <LocationOnIcon className="text-[#A7A7A7] w-[12px] md:w-[9px] h-[12px] md:h-[9px]"/>
+              <p className='font-poppins font-medium text-[10px] md:text-[12px] leading-[20px] md:leading-[28px] text-[#A7A7A7]'
+                style={{letterSpacing: "0.5px"}}
+              >
+                Canada
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-row gap-1 items-center">
+            <CalendarMonthIcon className="text-[#A7A7A7] w-[12px] md:w-[9px] h-[12px] md:h-[9px]"/>
+            <p className='font-poppins font-medium text-[10px] md:text-[12px] leading-[20px] md:leading-[28px] text-[#A7A7A7]'
+              style={{letterSpacing: "1px"}}
+            >
+              Jan 2026 - Present
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
