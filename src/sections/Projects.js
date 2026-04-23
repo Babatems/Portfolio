@@ -27,7 +27,7 @@ export default function Projects() {
       url: "https://touringcars.netlify.app",
       github: "https://github.com/Babatems/Touring-cars",
       image: "/images/touringcars.png",
-      description: "A clean and welcoming landing page designed for RCCG Word Aglow Parish. The page highlights key information such as service times, location, and church mission, with smooth scrolling and responsive design for all devices. Built to reflect the church’s spiritual message and encourage community engagement.",
+      description: "A clean and welcoming landing page designed for a car rental service. The page features a modern design with intuitive navigation, showcasing the company's services, fleet of vehicles, and contact information in a visually appealing manner.",
       techStack: "React, Tailwind CSS"
     },
     {
