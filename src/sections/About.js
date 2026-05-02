@@ -13,7 +13,7 @@ export default function About() {
   return (
     <div
       ref={ref}
-      className={`min-h-screen flex flex-col gap-7 px-4 md:px-[250px] py-[5vh] transition-opacity duration-1000 ${
+      className={`min-h-screen flex flex-col gap-7 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-[200px] 2xl:px-[250px] py-[5vh] transition-opacity duration-1000 ${
         inView ? 'opacity-100' : 'opacity-0'
       }`}
     >
@@ -22,10 +22,10 @@ export default function About() {
       >About Me
       </h1>
       <p className="text-gray-700 font-normal font-poppins text-[16px] md:text-[18px] leading-[24px] md:leading-[26px]">
-        Hi, I’m Inumoh Temiloluwa — a web developer with 5 years of experience turning ideas into sleek, responsive web apps.
-        <br />
-        My journey started back in high school when a friend introduced me to HTML and CSS. Since then, I’ve mastered responsive design, specialized in React, and continued sharpening my skills through hands-on projects and courses.
-        Outside of coding, I’m either trading memecoins or gaming.
+        I’m Inumoh Temiloluwa, a web developer with 5 years of experience building responsive, production-ready web applications.
+        I got into programming in high school when a friend showed me HTML and CSS. That curiosity became a craft: I specialized in React,
+        worked across freelance and full-time roles in Nigeria, and I’m now pursuing an MSc in Applied Computer Science at the University of Winnipeg.
+        When I’m not coding, I’m usually gaming or keeping up with crypto markets.
       </p>
 
       <h1 className="text-black font-poppins font-bold text-[28px] md:text-[36px] leading-[40px] md:leading-[52px]"

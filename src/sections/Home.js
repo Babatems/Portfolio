@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <div
-      className={`relative min-h-screen flex flex-col md:flex-row px-4 md:px-[250px] justify-center items-center transition-opacity duration-1000 ${
+      className={`relative min-h-screen flex flex-col md:flex-row px-4 sm:px-8 md:px-16 lg:px-32 xl:px-[200px] 2xl:px-[250px] justify-center items-center transition-opacity duration-1000 ${
         isVisible ? 'opacity-100' : 'opacity-0'
       }`}
     >
@@ -29,7 +29,7 @@ export default function Home() {
       {/* Foreground content */}
       <div className="z-10 flex flex-col md:flex-row justify-between items-center md:items-end w-full">
         <h1
-          className="font-sans font-medium text-black text-[40px] md:text-[80px] leading-[110%] md:leading-[97.2%] mb-4 text-center md:text-left"
+          className="font-sans font-medium text-black text-[40px] sm:text-[52px] lg:text-[80px] leading-[110%] lg:leading-[97.2%] mb-4 text-center md:text-left"
           style={{ letterSpacing: '-3%' }}
         >
           <span className="inline-block mr-2">
@@ -54,14 +54,14 @@ export default function Home() {
               className="text-yellow-600"
             />
           </span>
-          I'm <br />
+          I'm <span className="hidden sm:inline"><br /></span>
           Inumoh Temiloluwa
         </h1>
         <p
-          className="font-sans font-normal text-[18px] md:text-[25px] text-gray-700 leading-[140%] md:leading-[117%] mb-4 text-center md:text-left"
+          className="font-sans font-normal text-[16px] sm:text-[18px] md:text-[22px] lg:text-[25px] text-gray-700 leading-[140%] md:leading-[117%] mb-4 text-center md:text-left"
           style={{ letterSpacing: '-3%' }}
         >
-          A Web developer with a deep love <br /> for combining aesthetics into technology.
+          A Web developer with a deep love <span className="hidden sm:inline"><br /></span>for combining aesthetics into technology.
         </p>
       </div>
     </div>

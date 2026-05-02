@@ -1,57 +1,22 @@
+import { Link } from 'react-router-dom';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import { projects } from '../data/projects';
 
 export default function Projects() {
-  const projects = [
-    {
-      id: 1,
-      name: "BlockTrace",
-      url:"https://block-trace.net",
-      github: "https://github.com/Babatems/blocktrace.git",
-      image: "/images/blocktrace.png",
-      description: "BlockTrace is a cutting-edge blockchain explorer that provides users with real-time insights into blockchain transactions, blocks, and addresses. Basically it converts boring blockchain data into an intuitive interface. BlockTrace makes it easy to explore and analyze blockchain data across multiple networks.",
-      techStack: "React, Tailwind CSS, Node.js, Python, Alchmy API"
-    },
-    {
-      id: 2,
-      name: "XIVBrand E-commerce Website",
-      url: "https://thexivbrand.netlify.app",
-      github: "https://github.com/Babatems/E-Commerce-Website",
-      image: "/images/thexivbrand.png",
-      description: "A modern and responsive e-commerce website built for XIVBrand, featuring product listings, a shopping cart system, and a clean, user-friendly design. The site emphasizes smooth navigation, interactive UI elements, and a minimal aesthetic tailored for a fashion brand.",
-      techStack: "HTML, JavaScript, CSS"
-    },
-    {
-      id: 3,
-      name: "TouringCars",
-      url: "https://touringcars.netlify.app",
-      github: "https://github.com/Babatems/Touring-cars",
-      image: "/images/touringcars.png",
-      description: "A clean and welcoming landing page designed for a car rental service. The page features a modern design with intuitive navigation, showcasing the company's services, fleet of vehicles, and contact information in a visually appealing manner.",
-      techStack: "React, Tailwind CSS"
-    },
-    {
-      id: 4,
-      name: "Travling!",
-      url: "https://travlingg.netlify.app",
-      github: "https://github.com/Babatems/Travling",
-      image: "/images/Travling.png",
-      description: "Travling is a sleek and user-friendly landing page that allows users to discover exciting vacation destinations, book hotel accommodations, and purchase flight tickets—all in one place.",
-      techStack: "React, Tailwind CSS"
-    }
-  ];
-
   return (
-    <div className="min-h-screen flex flex-col px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20 pt-[9vh] md:py-[14vh] max-w-7xl mx-auto w-full">
+    <div className="min-h-screen flex flex-col px-4 sm:px-8 md:px-16 lg:px-32 xl:px-[200px] 2xl:px-[250px] pt-[9vh] md:py-[14vh]">
       <h1
         className="text-black font-poppins font-bold text-[28px] md:text-[36px] lg:text-[40px] leading-[36px] md:leading-[52px] lg:leading-[56px] mb-5"
         style={{ letterSpacing: "-0.4px" }}
       >
         Projects
       </h1>
-      <p className="text-gray-700 font-normal font-poppins text-[16px] md:text-[18px] lg:text-[18px] leading-[24px] md:leading-[26px] mb-[40px] md:mb-[60px] lg:mb-[80px]">
+      <p className="text-gray-700 font-normal font-poppins text-[16px] md:text-[18px] leading-[24px] md:leading-[26px] mb-[40px] md:mb-[60px] lg:mb-[80px]">
         A few things I've built
       </p>
+
       <div className="flex flex-col gap-[4rem] md:gap-[6rem] lg:gap-[8rem] xl:gap-[10rem]">
         {projects.map((project) => (
           <div key={project.id} className="flex flex-col lg:flex-row justify-between w-full gap-6 md:gap-8 lg:gap-12">
@@ -59,7 +24,7 @@ export default function Projects() {
             <div className="flex-shrink-0 w-full lg:w-[45%]">
               <img
                 src={project.image}
-                alt={`Project ${project.id}`}
+                alt={project.name}
                 className="h-[200px] md:h-[280px] lg:h-[320px] rounded-2xl w-full object-cover"
               />
             </div>
@@ -80,12 +45,11 @@ export default function Projects() {
               </h2>
               <div className="flex flex-col gap-3 min-w-0">
                 <p
-                  className="font-poppins font-normal text-[14px] md:text-[16px] lg:text-[16px] leading-[22px] md:leading-[24px] lg:leading-[26px] line-clamp-5 break-words"
-                  style={{ letterSpacing: "2%" }}
+                  className="font-poppins font-normal text-[14px] md:text-[16px] leading-[22px] md:leading-[24px] lg:leading-[26px] line-clamp-5 break-words"
                 >
                   {project.description}
                 </p>
-                <p className="font-poppins font-normal text-[12px] md:text-[14px] lg:text-[14px] leading-[22px] md:leading-[26px] lg:leading-[26px] line-clamp-2 break-words">
+                <p className="font-poppins font-normal text-[12px] md:text-[14px] leading-[22px] md:leading-[26px] line-clamp-2 break-words">
                   <span className="font-semibold">Tech Stack:</span> {project.techStack}
                 </p>
               </div>
@@ -98,19 +62,18 @@ export default function Projects() {
                     href={project.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-poppins font-normal text-[14px] md:text-[16px] lg:text-[16px] leading-[22px] md:leading-[26px] lg:leading-[26px] text-black hover:underline"
+                    className="font-poppins font-normal text-[14px] md:text-[16px] leading-[22px] md:leading-[26px] text-black hover:underline"
                   >
                     Live Preview
                   </a>
                 </div>
-
                 <div className="flex gap-[10px] items-center whitespace-nowrap">
                   <GitHubIcon />
                   <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-poppins font-normal text-[14px] md:text-[16px] lg:text-[16px] leading-[22px] md:leading-[26px] lg:leading-[26px] text-black hover:underline"
+                    className="font-poppins font-normal text-[14px] md:text-[16px] leading-[22px] md:leading-[26px] text-black hover:underline"
                   >
                     View Code
                   </a>
@@ -119,6 +82,17 @@ export default function Projects() {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* See All Projects CTA */}
+      <div className="flex justify-center mt-[60px] md:mt-[80px] lg:mt-[100px]">
+        <Link
+          to="/projects"
+          className="group flex items-center gap-3 border-2 border-black px-8 py-4 font-poppins font-semibold text-[15px] md:text-[17px] text-black hover:bg-black hover:text-white transition-all duration-300"
+        >
+          See All Projects
+          <ArrowForwardIcon className="transition-transform duration-300 group-hover:translate-x-1" style={{ fontSize: '20px' }} />
+        </Link>
       </div>
     </div>
   );
