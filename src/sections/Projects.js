@@ -50,7 +50,7 @@ export default function Projects() {
                   {project.description}
                 </p>
                 <p className="font-poppins font-normal text-[12px] md:text-[14px] leading-[22px] md:leading-[26px] line-clamp-2 break-words">
-                  <span className="font-semibold">Tech Stack:</span> {project.techStack}
+                  <span className="font-semibold">Tech Stack:</span> {project.techStack.join(', ')}
                 </p>
               </div>
 

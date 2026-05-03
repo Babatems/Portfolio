@@ -8,10 +8,10 @@ import {
   SiTailwindcss,
   SiFirebase,
   SiFigma,
-  SiVscodium,
   SiClaude,
   SiAnthropic,
 } from 'react-icons/si';
+import { TbBrandVscode } from 'react-icons/tb';
 
 const stack = [
   { label: 'Github',      Icon: SiGithub },
@@ -23,7 +23,7 @@ const stack = [
   { label: 'Tailwind',    Icon: SiTailwindcss },
   { label: 'Firebase',    Icon: SiFirebase },
   { label: 'Figma',       Icon: SiFigma },
-  { label: 'VSCode',      Icon: SiVscodium },
+  { label: 'VSCode',      Icon: TbBrandVscode },
   { label: 'Claude',      Icon: SiClaude },
   { label: 'Claude Code', Icon: SiAnthropic },
 ];
