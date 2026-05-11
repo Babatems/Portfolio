@@ -57,7 +57,7 @@ All three cards handle `image: null` (letter placeholder) and `url: null` (GitHu
 
 ### Shared data
 
-`src/data/projects.js` — single source of truth for all 6 projects. Schema:
+`src/data/projects.js` — single source of truth for all 7 projects. Schema:
 
 ```js
 { id, name, url, github, image, description, techStack, category, year }
@@ -66,7 +66,7 @@ All three cards handle `image: null` (letter placeholder) and `url: null` (GitHu
 - `techStack` is an **array** of strings — use `.join(', ')` when rendering as plain text (e.g., in `Projects.js` on the homepage).
 - `url` and `image` may be `null`.
 
-Both `src/sections/Projects.js` and `src/pages/ProjectsPage.js` import from this file. The resume is at `/public/Resume.docx`.
+`src/sections/Projects.js` (homepage) renders only the first 3 projects (`projects.slice(0, 3)`) with a "See All Projects" CTA that links to `/projects`. `src/pages/ProjectsPage.js` renders all 7. Both import from this file. The resume is at `/public/Resume.docx`.
 
 ### UI components (`src/ui/`)
 
@@ -95,7 +95,10 @@ Yellow-600 is the primary accent color. Transitions-dev CSS custom properties ar
 | `react-icons/tb` | `TbBrandVscode` for VSCode in TechStack |
 | `react-icons/fa` | Social icons in Footer (`FaLinkedin`, `FaGithub`, `FaTwitter`) |
 | `@mui/icons-material` | Icons in About, Projects, Contact, ViewSwitcher |
-| `tailwind-merge` + `clsx` | Safe class merging via `cn()` |
+| `tailwind-merge` | Safe class merging via `cn()` (uses `clsx` as a transitive dep — not in package.json directly) |
+| `@headlessui/react` | Installed (not yet used in components) |
+| `primereact` | CSS theme imported in `index.css`; not yet used in components |
+| `@fontsource/lato` + `@fontsource/poppins` | Self-hosted web fonts for Lato and Poppins |
 
 ### TechStack icons
 
