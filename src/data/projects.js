@@ -12,6 +12,17 @@ export const projects = [
   },
   {
     id: 2,
+    name: "Owó-mi",
+    url: "https://owo-mi-five.vercel.app/",
+    github: "https://github.com/Babatems/Owo-mi",
+    image: "/images/owo-mi.png",
+    description: "A Canadian-focused personal finance management platform with expense/income tracking, budget management, savings goals, and optional bank account integration.",
+    techStack: ["Next.js", "TypeScript", "Supabase", "Drizzle ORM", "Plaid"],
+    category: "Finance",
+    year: "2026"
+  },
+  {
+    id: 3,
     name: "XIVBrand E-commerce Website",
     url: "https://thexivbrand.netlify.app",
     github: "https://github.com/Babatems/E-Commerce-Website",
@@ -22,7 +33,7 @@ export const projects = [
     year: "2022"
   },
   {
-    id: 3,
+    id: 4,
     name: "TouringCars",
     url: "https://touringcars.netlify.app",
     github: "https://github.com/Babatems/Touring-cars",
@@ -33,7 +44,7 @@ export const projects = [
     year: "2025"
   },
   {
-    id: 4,
+    id: 5,
     name: "Travling!",
     url: "https://travlingg.netlify.app",
     github: "https://github.com/Babatems/Travling",
@@ -44,7 +55,7 @@ export const projects = [
     year: "2025"
   },
   {
-    id: 5,
+    id: 6,
     name: "Password Generator",
     url: "https://password-generator-9a40df.netlify.app/",
     github: "https://github.com/Babatems/Password-Generator",
@@ -55,7 +66,7 @@ export const projects = [
     year: "2022"
   },
   {
-    id: 6,
+    id: 7,
     name: "Chrome Extension",
     url: null,
     github: "https://github.com/Babatems/Chrome-Extension",
