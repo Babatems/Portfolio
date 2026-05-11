@@ -18,7 +18,7 @@ export default function Projects() {
       </p>
 
       <div className="flex flex-col gap-[4rem] md:gap-[6rem] lg:gap-[8rem] xl:gap-[10rem]">
-        {projects.map((project) => (
+        {projects.slice(0, 3).map((project) => (
           <div key={project.id} className="flex flex-col lg:flex-row justify-between w-full gap-6 md:gap-8 lg:gap-12">
             {/* Image */}
             <div className="flex-shrink-0 w-full lg:w-[45%]">
