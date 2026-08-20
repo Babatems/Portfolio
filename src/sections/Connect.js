@@ -2,8 +2,8 @@ const links = [
   { label: 'LinkedIn', value: '/in/temiloluwa-inumoh', href: 'https://www.linkedin.com/in/temiloluwa-inumoh/' },
   { label: 'X',        value: '@TInumoh',               href: 'https://x.com/TInumoh' },
   { label: 'Github',   value: 'github.com/Babatems',    href: 'https://github.com/Babatems' },
-  { label: 'Email',    value: 'temiloluwainumoh@gmail.com', href: 'mailto:temiloluwainumoh@gmail.com' },
   { label: 'Resume',   value: 'download here',          href: '/Resume.pdf' },
+  { label: 'Email',    value: 'temiloluwainumoh@gmail.com', href: 'mailto:temiloluwainumoh@gmail.com' },
 ];
 
 export default function Connect() {
@@ -29,12 +29,12 @@ export default function Connect() {
               href={href}
               target={href.startsWith('mailto:') ? undefined : '_blank'}
               rel={href.startsWith('mailto:') ? undefined : 'noopener noreferrer'}
-              className="group block"
+              className="group block min-w-0"
             >
               <p className="font-poppins font-semibold text-black text-[16px] md:text-[18px] group-hover:opacity-70 transition-opacity duration-200">
                 {label}
               </p>
-              <p className="font-poppins text-gray-400 text-[14px] md:text-[15px] mt-1 group-hover:opacity-70 transition-opacity duration-200">
+              <p className="font-poppins text-gray-400 text-[14px] md:text-[15px] mt-1 break-words group-hover:opacity-70 transition-opacity duration-200">
                 {value}
               </p>
             </a>
