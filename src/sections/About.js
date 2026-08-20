@@ -13,19 +13,22 @@ export default function About() {
   return (
     <div
       ref={ref}
-      className={`min-h-screen flex flex-col gap-7 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-[200px] 2xl:px-[250px] py-[5vh] transition-opacity duration-1000 ${
+      className={`min-h-screen flex flex-col gap-7 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-[200px] 2xl:px-[250px] py-[4vh] transition-opacity duration-1000 ${
         inView ? 'opacity-100' : 'opacity-0'
       }`}
     >
       <h1 className="text-black font-poppins font-bold text-[28px] md:text-[36px] leading-[40px] md:leading-[52px]"
         style={{letterSpacing: '-0.4px'}}
-      >About Me
+      >About
       </h1>
-      <p className="text-gray-700 font-normal font-poppins text-[16px] md:text-[18px] leading-[24px] md:leading-[26px]">
-        I’m Inumoh Temiloluwa, a web developer with 5 years of experience building responsive, production-ready web applications.
-        I got into programming in high school when a friend showed me HTML and CSS. That curiosity became a craft: I specialized in React,
-        worked across freelance and full-time roles in Nigeria, and I’m now pursuing an MSc in Applied Computer Science at the University of Winnipeg.
-        When I’m not coding, I’m usually gaming or keeping up with crypto markets.
+      <p className="font-poppins text-[18px] md:text-[24px] leading-[28px] md:leading-[36px]">
+        <span className="text-black font-semibold">
+          I’m Inumoh Temiloluwa, a full-stack software engineer at BlockTrace, where I build blockchain analytics tools used across
+          multiple chains. I enjoy turning complex products into fast, reliable experiences.
+        </span>
+        <span className="text-gray-400 font-normal">
+          {' '}Outside of work, I love gaming, playing football, and creating content online.
+        </span>
       </p>
 
       <h1 className="text-black font-poppins font-bold text-[28px] md:text-[36px] leading-[40px] md:leading-[52px]"
@@ -38,23 +41,23 @@ export default function About() {
           <h1 className="font-poppins font-normal text-[#666666] text-[18px] md:text-[20px] leading-[26px] md:leading-[28px]"
             style={{letterSpacing: "1px"}}
           >
-            Freelance Web Developer
+            Lead Software Engineer
           </h1>
           <p className="flex justify-center items-center px-[15px] md:px-[20px] py-[5px] bg-[#D7FFE0] text-[#018C0F] text-[8px] md:text-[9px] font-poppins font-semibold leading-[20px] md:leading-[26px] tracking-wide rounded-full"
             style={{letterSpacing: "1px"}}
           >
-            Freelance
-          </p> 
+            Full Time
+          </p>
         </div>
 
         <div className="flex flex-col md:flex-row justify-between gap-2 md:gap-0">
           <div className="flex flex-col md:flex-row gap-[10px] md:gap-[20px]">
             <div className="flex flex-row gap-1 items-center">
               <ApartmentIcon className="text-[#A7A7A7] w-[12px] md:w-[9px] h-[12px] md:h-[9px]"/>
-              <p className='font-poppins font-medium text-[10px] md:text-[12px] leading-[20px] md:leading-[28px] text-[#A7A7A7]' 
+              <p className='font-poppins font-medium text-[10px] md:text-[12px] leading-[20px] md:leading-[28px] text-[#A7A7A7]'
                 style={{letterSpacing: "1px"}}
               >
-                Self Employed
+                BlockTrace
               </p>
             </div>
 
@@ -72,7 +75,7 @@ export default function About() {
             <p className='font-poppins font-medium text-[10px] md:text-[12px] leading-[20px] md:leading-[28px] text-[#A7A7A7]'
               style={{letterSpacing: "1px"}}
             >
-              Sept 2022 - Present
+              Nov 2025 - Present
             </p>
           </div>
         </div>

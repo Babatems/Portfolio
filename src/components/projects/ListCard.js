@@ -66,7 +66,7 @@ export default function ListCard({ project }) {
               className="flex items-center gap-2 bg-black text-white px-5 py-2.5 rounded font-poppins font-semibold text-[13px] hover:bg-gray-800 transition-colors min-h-[44px]"
             >
               <OpenInNewIcon style={{ fontSize: '15px' }} />
-              Live Demo
+              View Site
             </a>
           )}
           <a

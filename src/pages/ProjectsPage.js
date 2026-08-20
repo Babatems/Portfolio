@@ -47,7 +47,7 @@ export default function ProjectsPage() {
 
   return (
     <div
-      className={`bg-[#E5E5E5] min-h-screen flex flex-col transition-opacity duration-500 ${
+      className={`bg-white min-h-screen flex flex-col transition-opacity duration-500 ${
         visible ? 'opacity-100' : 'opacity-0'
       }`}
     >
@@ -58,7 +58,7 @@ export default function ProjectsPage() {
         {announcement}
       </span>
 
-      <div className="flex-1 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-[200px] 2xl:px-[250px] pt-[5vh] pb-[10vh]">
+      <div className="flex-1 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-[200px] 2xl:px-[250px] pt-28 md:pt-36 pb-[10vh]">
         {/* Back link */}
         <Link
           to="/"

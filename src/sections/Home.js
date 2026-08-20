@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import Typewriter from '../sections/Typewriter';
-import { FlickeringGrid } from '../ui/flickering-grid';
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -12,57 +11,45 @@ export default function Home() {
 
   return (
     <div
-      className={`relative min-h-screen flex flex-col md:flex-row px-4 sm:px-8 md:px-16 lg:px-32 xl:px-[200px] 2xl:px-[250px] justify-center items-center transition-opacity duration-1000 ${
+      className={`w-full px-4 sm:px-8 md:px-16 lg:px-32 xl:px-[200px] 2xl:px-[250px] transition-opacity duration-1000 ${
         isVisible ? 'opacity-100' : 'opacity-0'
       }`}
     >
-      {/* Background flickering grid */}
-      <FlickeringGrid
-        className="absolute inset-0 z-0"
-        squareSize={4}
-        gridGap={6}
-        color="#D1D5DB" // Light mode: Tailwind's gray-300
-        maxOpacity={0.4}
-        flickerChance={0.1}
-      />
-
-      {/* Foreground content */}
-      <div className="z-10 flex flex-col md:flex-row justify-between items-center md:items-end w-full">
-        <h1
-          className="font-sans font-medium text-black text-[40px] sm:text-[52px] lg:text-[80px] leading-[110%] lg:leading-[97.2%] mb-4 text-center md:text-left"
-          style={{ letterSpacing: '-3%' }}
-        >
-          <span className="inline-block mr-2">
-            <Typewriter
-              text={[
-                "Hello",
-                "Bonjour",
-                "Hola",
-                "Ciao",
-                "Olá",
-                "Hallo",
-                "こんにちは",
-                "안녕하세요",
-                "مرحبا",
-                "नमस्ते",
-                "你好",
-              ]}
-              speed={100}
-              waitTime={1500}
-              deleteSpeed={40}
-              cursorChar={"_"}
-              className="text-yellow-600"
-            />
-          </span>
-          I'm <span className="hidden sm:inline"><br /></span>
-          Inumoh Temiloluwa
-        </h1>
-        <p
-          className="font-sans font-normal text-[16px] sm:text-[18px] md:text-[22px] lg:text-[25px] text-gray-700 leading-[140%] md:leading-[117%] mb-4 text-center md:text-left"
-          style={{ letterSpacing: '-3%' }}
-        >
-          A Web developer with a deep love <span className="hidden sm:inline"><br /></span>for combining aesthetics into technology.
-        </p>
+      <h1 className="sr-only">
+        Hello, I&apos;m Temi Inumoh — based in Winnipeg. I build and ship full-stack products, end to end.
+      </h1>
+      <div
+        aria-hidden="true"
+        className="font-sans font-semibold text-black text-[26px] sm:text-[32px] md:text-[38px] lg:text-[44px] leading-[1.25] w-full text-center sm:text-left"
+        style={{ letterSpacing: '-3%' }}
+      >
+        <span className="block">
+          <Typewriter
+            text={[
+              "Hello",
+              "Bonjour",
+              "Hola",
+              "Ciao",
+              "Olá",
+              "Hallo",
+              "こんにちは",
+              "안녕하세요",
+              "مرحبا",
+              "नमस्ते",
+              "你好",
+            ]}
+            speed={100}
+            waitTime={1500}
+            deleteSpeed={40}
+            cursorChar={"_"}
+            className="text-yellow-600"
+          />
+          , I&apos;m Temi Inumoh — based in Winnipeg.
+        </span>
+        <span className="block">
+          I build and ship full-stack products,{' '}
+          <span className="font-serif font-normal italic">end to end.</span>
+        </span>
       </div>
     </div>
   );

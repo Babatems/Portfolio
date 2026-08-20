@@ -72,3 +72,11 @@ code {
 .hover\:underline-effect:hover::after {
   width: 100%;
 }
+
+/* Applied to <body> by CustomCursor only when a fine pointer is present and
+   the custom cursor has actually mounted — avoids hiding the OS cursor if JS
+   fails or on touch devices. */
+body.cursor-none-fine,
+body.cursor-none-fine * {
+  cursor: none !important;
+}

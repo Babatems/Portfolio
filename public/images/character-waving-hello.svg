@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img">
+<title>Xiaohei standing and waving hello</title>
+<desc>Hand-drawn illustration of the Xiaohei character standing with one arm raised, waving, with small motion lines.</desc>
+
+<!-- motion lines by raised hand -->
+<path d="M330 118 Q346 112 340 100" fill="none" stroke="#E08A2C" stroke-width="2" stroke-linecap="round"/>
+<path d="M340 132 Q360 128 358 114" fill="none" stroke="#E08A2C" stroke-width="2" stroke-linecap="round"/>
+<path d="M336 148 Q356 148 358 134" fill="none" stroke="#E08A2C" stroke-width="2" stroke-linecap="round"/>
+
+<!-- raised waving arm -->
+<path d="M262 190 Q290 160 300 118" fill="none" stroke="#191919" stroke-width="5" stroke-linecap="round"/>
+<!-- hand -->
+<circle cx="300" cy="112" r="9" fill="#191919"/>
+
+<!-- other arm resting down -->
+<path d="M198 210 Q182 236 190 264" fill="none" stroke="#191919" stroke-width="5" stroke-linecap="round"/>
+
+<!-- body -->
+<rect x="180" y="152" width="98" height="106" rx="34" fill="#191919"/>
+
+<!-- eyes -->
+<circle cx="208" cy="196" r="4.5" fill="#fff"/>
+<circle cx="246" cy="196" r="4.5" fill="#fff"/>
+
+<!-- legs -->
+<path d="M212 258 L200 320" stroke="#191919" stroke-width="7" stroke-linecap="round"/>
+<path d="M250 258 L262 320" stroke="#191919" stroke-width="7" stroke-linecap="round"/>
+
+<!-- ground shadow -->
+<ellipse cx="230" cy="330" rx="60" ry="7" fill="#191919" opacity="0.08"/>
+</svg>

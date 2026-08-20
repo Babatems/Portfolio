@@ -15,7 +15,18 @@ module.exports = {
         poppins: ['Poppins', 'sans-serif'],
         lato: ['Lato', 'sans-serif'],
         sans: ['"DM Sans"', 'sans-serif'],
-      }
+        serif: ['"DM Serif Display"', 'serif'],
+        geist: ['"Geist Sans"', 'sans-serif'],
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      },
+      animation: {
+        'fade-in': 'fadeIn 1000ms ease-out forwards',
+      },
     },
   },
   plugins: [],
